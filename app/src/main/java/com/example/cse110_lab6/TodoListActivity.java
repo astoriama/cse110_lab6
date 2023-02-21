@@ -14,7 +14,7 @@ public class TodoListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_todo_list);
 
-        List<TodoListItem> todos = TodoListItem.loadJSON(this, "demo_todos.json");
+        List<TodoListItem> todos = TodoListItem.loadJSON(this, "demo_todo.json");
         Log.d("TodoListActivity", todos.toString());
     }
 }
